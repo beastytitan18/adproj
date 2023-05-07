@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	<!-- title -->
+	<title>Sorting Visualizer</title>
+
+	<!-- linking style.css -->
+	<link href="style2.css" rel="stylesheet" />
+</head>
+
+<!-- body -->
+<body >
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#">Sort Algorithm &#9662;</a>
+              <ul>
+                <li><a href="#">Selection Sort</a></li>
+                <li><a href="#">Bubble Sort</a></li>
+                <li><a href="#">Insertion Sort</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+<section class="head">Selection Sort Visualizer</section>
+<section class="data-container"></section>
+	
+<!-- "Generate New Array" button -->
+<button class="btn1" onclick="generate()" id="Button1" >
+	Generate New Array</button>
+	
+<!-- "Selection Sort" button -->
+<button class="btn2"
+		onclick="SelectionSort(),disable()" id="Button2" >
+	Selection Sort</button>
+    <footer>
+        <p>&copy; 2023 Selection Sort Visualizer</p>
+    </footer>
+</body>
+
+<!-- linking index.js -->
+<script src="login2.js"></script>
+</html>
